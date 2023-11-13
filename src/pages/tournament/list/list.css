@@ -1,0 +1,141 @@
+.iq-ribbon-effect-red {
+    background: #C03221;
+    display: flex;
+    right: 2rem;
+    padding: 0.625rem;
+    position: absolute;
+    text-orientation: mixed;
+    text-transform: UPPERCASE;
+    top: 0;
+    white-space: nowrap;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    z-index: 100;
+}
+
+.iq-ribbon-effect-red:before {
+    border-right: 1.5em solid transparent;
+    left: 0;
+}
+
+.iq-ribbon-effect-red:after, .iq-ribbon-effect-red:before {
+    border-top: 1.5em solid #C03221;
+    bottom: -1.5em;
+    content: "";
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+
+.iq-ribbon-effect-red:after, .iq-ribbon-effect-red:before {
+    border-top: 1.5em solid #C03221;
+    bottom: -1.5em;
+    content: "";
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+.iq-ribbon-effect-red:after {
+    border-left: 1.5em solid transparent;
+    right: 0;
+}
+
+
+
+
+.iq-ribbon-effect-green {
+    background: #1AA053;
+    display: flex;
+    right: 2rem;
+    padding: 0.625rem;
+    position: absolute;
+    text-orientation: mixed;
+    text-transform: UPPERCASE;
+    top: 0;
+    white-space: nowrap;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    z-index: 100;
+}
+
+.iq-ribbon-effect-green:before {
+    border-right: 1.5em solid transparent;
+    left: 0;
+}
+
+.iq-ribbon-effect-green:after, .iq-ribbon-effect-green:before {
+    border-top: 1.5em solid #1AA053;
+    bottom: -1.5em;
+    content: "";
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+
+.iq-ribbon-effect-green:after, .iq-ribbon-effect-green:before {
+    border-top: 1.5em solid #1AA053;
+    bottom: -1.5em;
+    content: "";
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+.iq-ribbon-effect-green:after {
+    border-left: 1.5em solid transparent;
+    right: 0;
+}
+
+
+.cardbg:hover
+{
+    box-shadow: 0 20px 45px -15px #000 !important;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+   
+} 
+
+.dark .cardbg:hover
+{
+    box-shadow: 0 15px 35px -15px #fff !important;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+   
+} 
+
+
+.btnw .btn-close {
+    filter: invert(1);
+}
+
+.iq-file-manager-table tbody tr td .iq-recently-badge {
+    background-color: rgba(var(--bs-primary-rgb), 0.1);
+    color: var(--bs-primary);
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.icon-24 {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+
+.mytbl td{
+    padding: 0.2rem 0rem !important;
+}
+
+.dark a.bg-soft-primary, .dark button.bg-soft-primary {
+    color: var(--bs-primary);
+    background-color: rgba(var(--bs-primary-rgb), 0.1) !important;
+}
+
+a.bg-soft-primary, .dark button.bg-soft-primary {
+    color: var(--bs-primary);
+    background-color: rgba(var(--bs-primary-rgb), 0.1) !important;
+}
+

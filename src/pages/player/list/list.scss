@@ -1,0 +1,122 @@
+//global
+.iq-product-weather{
+    .iq-weather-detail{
+        margin: 0 .5rem;
+        &:last-child{
+            margin-right: unset;
+        }
+        &:first-child{
+            margin-left: unset;
+        }
+    }
+}
+
+//product card
+.iq-product-custom-card{
+    box-shadow: unset;
+    transition: 300ms ease-in-out;
+    border-radius: 0.5rem;
+    &:hover{
+        box-shadow: 0 1rem 3rem rgba(#000, .175) ;
+        .iq-product-hover-img{
+            .iq-product-info{
+                opacity: 1;
+                transform: translateY(0px);
+                transition: 300ms ease-in-out;
+                .iq-product-btn{
+                    background-color: #fff;
+                    color: bs-primary;
+                    transition: 300ms ease-in-out;
+                    &:hover{
+                        background: bs-primary;
+                        color: bs-white;
+                    }
+                }
+            }
+        }
+    }
+    .iq-product-hover-img{
+        .iq-product-info{
+            position: absolute;
+            right: 1rem;
+            text-align: center;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: 300ms ease-in-out;
+        }
+        .iq-product-card-hover-effect-1{
+            top: 1rem;
+        }
+        .iq-product-card-hover-effect-2{
+            top: 4.2rem;
+        }
+    }
+    .iq-product-img{
+        object-fit: contain;
+        width: 100%;
+        min-height: 18.75rem;
+        max-height: 18.75rem;
+        height: 18.75rem;
+        background-color: rgba(#3e4347 , 0.1);
+       border-top-left-radius: 0.5rem;
+       border-top-right-radius: 0.5rem;
+       padding:30px
+    }
+}
+
+.dark .iq-product-img{
+    object-fit: contain;
+        width: 100%;
+        min-height: 18.75rem;
+        max-height: 18.75rem;
+        height: 18.75rem;
+    background-color: rgba(#6c757d , 0.1);
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem
+}
+
+//product list view
+.iq-product-list-view{
+    .card-body{
+        .iq-list-view-left{
+            div{
+                margin-bottom: 1rem;
+                &:last-child{
+                    margin-bottom: unset;
+                }
+            }
+        }
+        img{
+            object-fit: contain;
+            width: 170px;
+            min-height: 170px;
+            max-height: 170px;
+            height: 170px;
+            border-radius: .25rem;
+            background-color: rgba(#6c757d , 0.1);
+        }
+        .iq-list-view-right{
+            >div{
+                margin-bottom: 1rem;
+                &:last-child{
+                    margin-bottom: unset;
+                }
+            }
+
+        }
+    }
+}
+
+.btn-icon {
+    align-items: center;
+    height: 2.5rem;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+    width: 2.5rem;
+    display: inline-flex;
+}
+
+.btnw .btn-close {
+    filter: invert(1);
+}
